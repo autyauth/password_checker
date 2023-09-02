@@ -15,13 +15,11 @@ function App() {
   return (
     <>
     <WebNavBar/>
-    <Container>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/passwordchecker' element={<PasswordChecker/>}/>
         <Route path='/member' element={<Member/>}/>
       </Routes>
-    </Container>
       
     </>
   )
