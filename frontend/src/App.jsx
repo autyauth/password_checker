@@ -14,13 +14,14 @@ function App() {
 
   return (
     <>
+    <Container fluid className='px-0 mainContainer'>
     <WebNavBar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/passwordchecker' element={<PasswordChecker/>}/>
         <Route path='/member' element={<Member/>}/>
       </Routes>
-      
+      </Container>
     </>
   )
 }
