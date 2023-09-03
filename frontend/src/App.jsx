@@ -7,7 +7,7 @@ import { Container } from 'react-bootstrap'
 import { Route, Routes } from 'react-router-dom'
 import { Home } from './page/Home'
 import { PasswordChecker } from './page/PasswordChecker'
-import { Member } from './page/Member'
+import { Members } from './page/Members'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/passwordchecker' element={<PasswordChecker/>}/>
-        <Route path='/member' element={<Member/>}/>
+        <Route path='/members' element={<Members/>}/>
       </Routes>
       </Container>
     </>

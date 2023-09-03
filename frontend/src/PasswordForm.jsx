@@ -1,13 +1,15 @@
+import { useState } from "react";
 import { Form } from "react-bootstrap";
 
-export function PasswordForm() {
+export function PasswordForm({setPasswordFromChild}) {
+  //setPassword ทุกครั้งๆที่คำข้างในเปลี่ยนละส่งกลับไปให้ Parent
   return (
     <Form>
       <Form.Group className="mb-3">
-        <Form.Label>
-          <h2>How long Hacker cracked My password?</h2>
-        </Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+        <h2>
+          <p className="text-center"> How long Hacker cracked your password?</p>
+        </h2>
+        <Form.Control type="text" placeholder="Enter the password" onChange={ e=>setPasswordFromChild(e.target.value)}/>
       </Form.Group>
     </Form>
   );

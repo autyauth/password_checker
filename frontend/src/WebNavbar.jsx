@@ -21,7 +21,7 @@ export function WebNavBar() {
               to={"/passwordchecker"}
               linkName={"Password Checker"}
             ></Linkto>
-            <Linkto to={"/member"} linkName={"Members"}></Linkto>
+            <Linkto to={"/members"} linkName={"Members"}></Linkto>
           </Nav>
         </Navbar.Collapse>
       </Container>
