@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import { PasswordForm } from "../PasswordForm";
 import { TimeResult } from "../TimeResult";
 import { useState } from "react";
@@ -17,7 +17,7 @@ export function PasswordChecker() {
   return (
     <>
       {" "}
-      <Container className="homeCon">
+      {/* <Container className="homeCon">
         <div className="d-flex flex-column  justify-content-center align-items-center  h-100">
           <div className="col-md-8 ">
             <PasswordForm setPasswordFromChild={setPasswordFromChild} />
@@ -30,6 +30,19 @@ export function PasswordChecker() {
       <Container>
         {" "}
         <ConditionTable />
+      </Container> */}
+      <Container className="homeCon px-4" fluid>
+        <row className="d-flex  d-flex align-items-end justify-content-center  h-25 w-50 mx-auto"> 
+          <Col md={8}>
+            <PasswordForm setPasswordFromChild={setPasswordFromChild} />
+          </Col>
+        </row>
+        <row>
+          <Col >
+            <TimeResult />
+          </Col>
+        </row>
+        <ConditionTable/>
       </Container>
     </>
   );

@@ -25,7 +25,7 @@ export function PasswordForm({ setPasswordFromChild }) {
           <option value="2">1 billion password/second</option>
           <option value="3">1 billion password/second</option>
         </Form.Select>
-        <Button className="col calBtn col-md-6  d-flex align-items-center">Calculate</Button>
+        <Button className="col calBtn col-md-6 text-white"><h6>Calculate</h6></Button>
       </Row>
     </Form>
   );

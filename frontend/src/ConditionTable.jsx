@@ -1,71 +1,103 @@
-import { Row, Table,Col } from "react-bootstrap";
+import { Row, Table, Col } from "react-bootstrap";
 
 export function ConditionTable() {
   return (
-    <Row>
-      <Col md={6}>
-        <Table striped bordered hover>
-          <thead>
+    <Row className="gx-5 w-100 mx-auto">
+      <Col md={6} className="border border-dark p-0 ">
+        <Table  borderless hover className="p-3 ">
+          <thead  className="table-success">
             <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
+              <th>Adding Conditions</th>
+              <th>Counts</th>
+              <th>Scores</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>12</td>
+              <td>+23</td>
             </tr>
             <tr>
-              <td>2</td>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>5</td>
+              <td>+12</td>
             </tr>
             <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>7</td>
+              <td>+9</td>
+            </tr>
+            <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>9</td>
+              <td>+16</td>
+            </tr>
+            <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
               <td>3</td>
-              <td colSpan={2}>Larry the Bird</td>
-              <td>@twitter</td>
+              <td>+9</td>
+            </tr>
+            <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>8</td>
+              <td>+18</td>
+            </tr>
+            <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>2</td>
+              <td>+5</td>
             </tr>
           </tbody>
         </Table>
-        
       </Col>
-      <Col md={6}>
-        <Table striped bordered hover>
-          <thead>
+      <Col md={6} className="border border-dark p-0 " >
+      <Table  borderless hover className="p-3">
+          <thead  className="table-danger ">
             <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
+              <th>Adding Conditions</th>
+              <th>Counts</th>
+              <th>Scores</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>12</td>
+              <td>-23</td>
             </tr>
             <tr>
-              <td>2</td>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>5</td>
+              <td>-12</td>
             </tr>
             <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>7</td>
+              <td>-9</td>
+            </tr>
+            <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>9</td>
+              <td>-16</td>
+            </tr>
+            <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
               <td>3</td>
-              <td colSpan={2}>Larry the Bird</td>
-              <td>@twitter</td>
+              <td>-9</td>
+            </tr>
+            <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>8</td>
+              <td>-18</td>
+            </tr>
+            <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+              <td>2</td>
+              <td>-5</td>
             </tr>
           </tbody>
         </Table>
-        
       </Col>
     </Row>
   );
