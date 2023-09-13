@@ -34,3 +34,11 @@ line-height: normal;
   font-weight: 500;
   line-height: normal;
 }
+/* Passwor */
+div .selForm{
+  font-size: small;
+  width: 216px;
+}
+div .calBtn{
+  width: 130px;
+}
