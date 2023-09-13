@@ -2,8 +2,9 @@ import { Row, Table, Col } from "react-bootstrap";
 
 export function ConditionTable() {
   return (
-    <Row className="gx-5 w-100 mx-auto">
-      <Col md={6} className="border border-dark p-0 ">
+    <Row className=" w-100 mx-auto">
+      <Col md={6} >
+        <div className="border border-dark p-0 ">
         <Table  borderless hover className="p-3 ">
           <thead  className="table-success">
             <tr>
@@ -50,8 +51,10 @@ export function ConditionTable() {
             </tr>
           </tbody>
         </Table>
+        </div>
       </Col>
-      <Col md={6} className="border border-dark p-0 " >
+      <Col md={6}  >
+      <div className="border border-dark p-0 ">
       <Table  borderless hover className="p-3">
           <thead  className="table-danger ">
             <tr>
@@ -98,6 +101,7 @@ export function ConditionTable() {
             </tr>
           </tbody>
         </Table>
+        </div>
       </Col>
     </Row>
   );
