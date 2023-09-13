@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import { WebNavBar } from './WebNavbar'
 import { Container } from 'react-bootstrap'
 import { Route, Routes } from 'react-router-dom'
 import { Home } from './page/Home'
 import { PasswordChecker } from './page/PasswordChecker'
-import { Members } from './page/Members'
+import { PasswordSuggestion } from './page/PasswordSuggestion'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -19,7 +16,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/passwordchecker' element={<PasswordChecker/>}/>
-        <Route path='/members' element={<Members/>}/>
+        <Route path='/passwordsuggestion' element={<PasswordSuggestion/>}/>
+
       </Routes>
       </Container>
     </>
