@@ -39,8 +39,7 @@ function Linkto({ to, linkName }) {
       <Nav.Link
         as={Link}
         to={to}
-        className="text-primary px-4 py-3 "
-        active={isActive ? "active" : ""}
+        className={isActive ? "active text-warning px-4 py-3 " : "text-primary px-4 py-3"}
       >
         {linkName}
       </Nav.Link>{" "}
