@@ -13,6 +13,7 @@ export function PasswordForm({ setPasswordFromChild }) {
           type="text"
           placeholder="Enter the password"
           onChange={(e) => setPasswordFromChild(e.target.value)}
+          
         />
       </Form.Group>
 
