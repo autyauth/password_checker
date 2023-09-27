@@ -1,7 +1,7 @@
 import { Container, Nav, NavItem, Navbar } from "react-bootstrap";
 import "./WebNavbar.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-
+import webicon from "./assets/images/icon.png";
 export function WebNavBar() {
   return (
     <Navbar
@@ -11,7 +11,7 @@ export function WebNavBar() {
     >
       <Container className="mx-5 ">
         <Navbar.Brand as={Link} to="/" className="text-primary py-0 navbar-brand-with-image">
-          <img className="d-inline" src="./img/icon.png" />
+          <img className="d-inline" src={webicon} />
           <h1 className="d-inline">Computation</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
