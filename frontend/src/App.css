@@ -9,16 +9,17 @@
 .homeCon {
   height: 90%;
 }
+/* Members */
 div .memberBlock{
-  background-color: black;
-  height: 72px;
+  height: 60px;
   width: 444px;
 
 }
+
 div .memberpic{
   max-height: 80%;
 }
-
+/* Members */
 .timeResult h3{
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
 font-family: Inter;
@@ -34,7 +35,7 @@ line-height: normal;
   font-weight: 500;
   line-height: normal;
 }
-/* Passwor */
+/* Password */
 div .selForm{
   font-size: small;
   width: 216px;
@@ -42,3 +43,12 @@ div .selForm{
 div .calBtn{
   width: 130px;
 }
+/* Password */
+/* NavBar */
+
+.navbar-brand-with-image img {
+  max-height: 40px;
+  height: auto; 
+  margin-bottom: 8px;
+}
+/* NavBar */

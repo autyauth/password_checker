@@ -1,9 +1,9 @@
 export function TimeResult(){
     return(
         <div className="text-center timeResult">
-            <p className="text-primary">this password take</p>
+            <h6 className="text-secondary">This password take</h6>
             <h3 className="text-success ">2 Million Year</h3>
-            <p className="text-primary">to bruteforce.</p>
+            <h6 className="text-secondary">to bruteforce.</h6>
         </div>
     )
 }
