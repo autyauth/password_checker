@@ -17,11 +17,11 @@ export function WebNavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" variant="pills">
             <Linkto to={"/"} linkName={"Home"}></Linkto>
+
             <Linkto
-              to={"/passwordchecker"}
-              linkName={"Password Checker"}
+              to={"/members"}
+              linkName={"Members"}
             ></Linkto>
-            <Linkto to={"/passwordsuggestion"} linkName={"PasswordSuggestion"}></Linkto>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -39,7 +39,9 @@ function Linkto({ to, linkName }) {
       <Nav.Link
         as={Link}
         to={to}
-        className={isActive ? "active text-warning px-4 py-3 " : "text-primary px-4 py-3"}
+        className={
+          isActive ? "active text-primary px-4 py-3 fw-bold" : "text-primary px-4 py-3"
+        }
       >
         {linkName}
       </Nav.Link>{" "}
