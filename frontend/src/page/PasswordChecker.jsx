@@ -3,6 +3,8 @@ import { PasswordForm } from "../PasswordForm";
 import { TimeResult } from "../TimeResult";
 import { useState } from "react";
 import { ConditionTable } from "../ConditionTable";
+import { passwordBruteforcetime } from "../function";
+import { calculateTime } from "../calculate";
 
 export function PasswordChecker() {
   const [password, setPassword] = useState("");
@@ -13,6 +15,12 @@ export function PasswordChecker() {
   const setPasswordFromChild = (pass) => {
     setPassword(pass);
   };
+
+  const result = passwordBruteforcetime(password);
+  console.log(result);
+
+  
+
   console.log(password);
   return (
     <>
