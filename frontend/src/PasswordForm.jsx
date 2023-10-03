@@ -1,4 +1,5 @@
 import { Form, Button, Row } from "react-bootstrap";
+import "./App.css";
 
 export function PasswordForm({ setPasswordFromChild }) {
   //setPassword ทุกครั้งๆที่คำข้างในเปลี่ยนละส่งกลับไปให้ Parent
@@ -13,15 +14,15 @@ export function PasswordForm({ setPasswordFromChild }) {
   return (
     <Form>
       <Form.Group className="mb-3">
-        <h2>
+        <h1>
           <p className="text-center fw-bold"> How long Hacker cracked your password?</p>
-        </h2>
+        </h1>
         <Form.Control
-          type="text"
+          type="Password"
           placeholder="Enter the password"
           //onKeyDown={handleKeyDown}
           onChange={(e) => setPasswordFromChild(e.target.value)}
-          className="shadow-sm p-3 mb-5 bg-white rounded"
+          className="PaswordForm shadow-sm p-4 my-5 ml-4 bg-white"
         />
       </Form.Group>
     </Form>

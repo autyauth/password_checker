@@ -115,7 +115,7 @@ export function PasswordStrengthIndicator({ password }) {
         transition: 'width 0.3s', // Smooth transition when the width changes
       }}
     >
-      <div style={{ textAlign: 'center', color: 'white' }}>Strength: {Math.min(100, Math.round(strength * 1))}%</div>
+      <div style={{ textAlign: 'center', color: 'white' }}></div>
     </div>
   );
 }
