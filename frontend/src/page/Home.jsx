@@ -41,7 +41,7 @@ export function Home() {
             </div>
           </Col>
         </Row>
-        
+
       </Container>
     </>
   );
