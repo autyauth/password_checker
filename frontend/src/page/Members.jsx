@@ -1,21 +1,21 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { MemberBlock } from "../MemberBlock";
-// import p64010247 from "../assets/images/member_img/64010247.png";
-// import p61011085 from "../assets/images/member_img/61011085.png";
-// import p63015191 from "../assets/images/member_img/63015191.png";
-// import p63015098 from "../assets/images/member_img/63015098.png";
-// import p64010052 from "../assets/images/member_img/64010052.png";
-// import p64010065 from "../assets/images/member_img/64010065.png";
-// import p64010298 from "../assets/images/member_img/64010298.png";
-// import p64010309 from "../assets/images/member_img/64010309.png";
-// import p64010315 from "../assets/images/member_img/64010315.png";
-// import p64010342 from "../assets/images/member_img/64010342.png";
-// import p64010444 from "../assets/images/member_img/64010444.png";
+import p64010247 from "../assets/images/member_img/64010247.png";
+import p61011085 from "../assets/images/member_img/61011085.png";
+import p63015191 from "../assets/images/member_img/63015191.png";
+import p63015098 from "../assets/images/member_img/63015098.png";
+import p64010052 from "../assets/images/member_img/64010052.png";
+import p64010065 from "../assets/images/member_img/64010065.png";
+import p64010298 from "../assets/images/member_img/64010298.png";
+import p64010309 from "../assets/images/member_img/64010309.png";
+import p64010315 from "../assets/images/member_img/64010315.png";
+import p64010342 from "../assets/images/member_img/64010342.png";
+import p64010444 from "../assets/images/member_img/64010444.png";
 
 export function Members() {
   return (
     <Container className="homeCon h-75">
-      {/* <Row className=" justify-content-center  w-100 my-5 pt-5 ">
+      <Row className=" justify-content-center  w-100 my-5 pt-5 ">
         <Col md={6} className="px-3 ">
           <div className="d-flex justify-content-end">
             <div className="flex-column d-flex justify-content-between ">
@@ -81,7 +81,7 @@ export function Members() {
             />
           </div>
         </Col>
-      </Row> */}
+      </Row>
     </Container>
   );
 }

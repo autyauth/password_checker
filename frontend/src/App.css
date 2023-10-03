@@ -72,5 +72,8 @@ div .calBtn{
   background-color: #f29a04;
   border-radius: 0px !important;
 }
-
+.nav-item:hover{
+  background-color: #f29a04;
+  border-radius: 0px !important;
+}
 /* NavBar */
