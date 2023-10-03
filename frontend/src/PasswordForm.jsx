@@ -23,6 +23,7 @@ export function PasswordForm({ setPasswordFromChild }) {
           //onKeyDown={handleKeyDown}
           onChange={(e) => setPasswordFromChild(e.target.value)}
           className="PaswordForm shadow-sm p-4 my-5 ml-4 bg-white"
+          style={{ fontSize: '2rem' }}
         />
       </Form.Group>
     </Form>
