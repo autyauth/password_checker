@@ -4,8 +4,7 @@ import { WebNavBar } from './WebNavbar'
 import { Container } from 'react-bootstrap'
 import { Route, Routes } from 'react-router-dom'
 import { Home } from './page/Home'
-import { PasswordChecker } from './page/PasswordChecker'
-import { PasswordSuggestion } from './page/PasswordSuggestion'
+
 import { Members } from './page/Members'
 
 function App() {

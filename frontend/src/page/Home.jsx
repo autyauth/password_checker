@@ -1,8 +1,6 @@
 import { Container, Col, Row } from "react-bootstrap";
 import { PasswordForm } from "../PasswordForm";
-import { TimeResult } from "../TimeResult";
 import { useState } from "react";
-import { ConditionTable } from "../ConditionTable";
 import { passwordBruteforcetime } from "../function";
 import { calculateTime } from "../calculate";
 import { PasswordStrengthIndicator } from "../PasswordStrengthIndicator";

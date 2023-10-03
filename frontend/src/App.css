@@ -59,17 +59,18 @@ div .calBtn{
   font-size: 2rem;
 }
 ::-webkit-text-stroke-width{
-   .2em;
-        letter-spacing: 0.2em;
+   
+        letter-spacing: 0.2em;}
 /* NavBar */
 
 .navbar-brand-with-image img {
   max-height: 40px;
   height: auto; 
-  margin-bottom: 8px;
+  margin-bottom: 18px;
 }
 .nav-item .active{
   background-color: #f29a04;
   border-radius: 0px !important;
 }
+
 /* NavBar */
