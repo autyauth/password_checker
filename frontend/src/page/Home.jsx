@@ -34,7 +34,7 @@ export function Home() {
         </Row>
         <Row>
           <Col>
-            <div className="text-center timeResult">
+            <div className="text-center timeResult mt-5">
                 <h6 className="text-secondary">This password take</h6>
                 <h3 className="text-success">{time}</h3>
                 <h6 className="text-secondary">to bruteforce.</h6>
