@@ -14,8 +14,8 @@ import p64010444 from "../assets/images/member_img/64010444.png";
 
 export function Members() {
   return (
-    <Container className="homeCon h-75">
-      <Row className=" justify-content-center  w-100 my-5 pt-5 ">
+    <Container className=" h-75">
+      <Row className=" justify-content-center  w-100 my-5 pt-2 ">
         <Col md={6} className="px-3 ">
           <div className="d-flex justify-content-end">
             <div className="flex-column d-flex justify-content-between ">

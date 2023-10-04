@@ -12,10 +12,13 @@ export function PasswordForm({ setPasswordFromChild }) {
     }
   };*/
   return (
-    <Form>
+    <Form onSubmit={(e)=>{e.preventDefault();}}>
       <Form.Group className="mb-3">
         <h1>
-          <p className="text-center fw-bold"> How long Hacker cracked your password?</p>
+          <p className="text-center fw-bold">
+            {" "}
+            How long Hacker cracked your password?
+          </p>
         </h1>
         <Form.Control
           type="Password"
@@ -23,7 +26,9 @@ export function PasswordForm({ setPasswordFromChild }) {
           //onKeyDown={handleKeyDown}
           onChange={(e) => setPasswordFromChild(e.target.value)}
           className="PaswordForm shadow-sm p-4 mt-5 ml-3 bg-white"
-          style={{ fontSize: '2rem' }}
+          style={{ fontSize: "2rem" }}
+          
+          
         />
       </Form.Group>
     </Form>
