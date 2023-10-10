@@ -9,11 +9,19 @@
 .homeCon {
   height: 90%;
 }
+
 /* Members */
 div .memberBlock{
   height: 60px;
   width: 444px;
 
+}
+h5 .link{
+  color: cornflowerblue;
+  text-decoration: none;
+}
+.link-container :hover{
+  color: red;
 }
 
 .square-image {
@@ -46,6 +54,17 @@ line-height: normal;
   font-weight: 500;
   line-height: normal;
 }
+.memberBlock{
+  transition: 1s ease;
+  }
+  
+  .memberBlock:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  background-color: #f29a04 !important;
+  }
 /* Password */
 div .selForm{
   font-size: small;
