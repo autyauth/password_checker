@@ -12,15 +12,21 @@ export function PasswordStrengthIndicator({ password }) {
         let CountSpecial = 0;
 
         var Points = 0; 
-        const regex = /^[a-zA-Z0-9!@#$%^&*()_+{}\[\]:;<>,.?~\\/-]+$/;
+        const regex = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 
-        if (!regex.test(inputString)) {
-          console.log("รหัสผ่านไม่สามารถมีภาษาไทยได้");
-          return Points=0;
-        }
-
+        // if (!regex.test(inputString)) {
+        //   console.log("รหัสผ่านไม่สามารถมีภาษาไทยได้");
+        //   return Points=0;
+        // }
+        
+          
+          
+        
         for (let i = 0; i < password.length; i++) {
-            const char = password[i];
+            const char = password[i];        
+            const thaiCharCode = char.charCodeAt(0);
+
+            if (!(thaiCharCode >= 3584 && thaiCharCode <= 3711)){
             if (char >= 'a' && char <= 'z') {
               CountLowwercase += 1;
             }else if(char >= 'A' && char <= 'Z'){
@@ -30,7 +36,13 @@ export function PasswordStrengthIndicator({ password }) {
             } else{
               CountSpecial += 1;
             }
+          }
+          else{
+            return Points = 0;
+          }
         }
+        
+      
 
           function SetPionts(U,L,N,S,inputString){
             //Good

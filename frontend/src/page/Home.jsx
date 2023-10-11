@@ -42,7 +42,7 @@ export function Home() {
         <Row>
           <Col>
             <div className="text-center timeResult mt-4">
-              <h5 className="link-container">สนใจใน code ของเรางั้นเหรอ? สามารถเข้าชมgithub ของผลงานนี้ได้โดย  <a href="https://github.com/autyauth/password_checker" className="link">👉🏻คลิกที่นี่</a> </h5>
+              <h5 className="link-container">สนใจใน code ของเรางั้นเหรอ? สามารถเข้าชม github ของผลงานนี้ได้โดย  <a href="https://github.com/autyauth/password_checker" className="link">👉🏻คลิกที่นี่</a> </h5>
             </div>
           </Col>
         </Row>
