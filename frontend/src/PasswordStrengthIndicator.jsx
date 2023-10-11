@@ -5,11 +5,6 @@ export function PasswordStrengthIndicator({ password }) {
 
     const calculateStrength = (password) => {
 
-        let SetofUppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-        let SetofLowwercase = 'abcdefghijklmnopqrstuvwxyz'
-        let SetofNumber = '0123456789'
-        let SetofSpecail = ''
-
         let NumofPassword = 0;
         let CountUppercase = 0;
         let CountLowwercase = 0;
@@ -17,6 +12,12 @@ export function PasswordStrengthIndicator({ password }) {
         let CountSpecial = 0;
 
         var Points = 0; 
+        const regex = /^[a-zA-Z0-9!@#$%^&*()_+{}\[\]:;<>,.?~\\/-]+$/;
+
+        if (!regex.test(inputString)) {
+          console.log("รหัสผ่านไม่สามารถมีภาษาไทยได้");
+          return Points=0;
+        }
 
         for (let i = 0; i < password.length; i++) {
             const char = password[i];
@@ -29,7 +30,7 @@ export function PasswordStrengthIndicator({ password }) {
             } else{
               CountSpecial += 1;
             }
-          }
+        }
 
           function SetPionts(U,L,N,S,inputString){
             //Good
