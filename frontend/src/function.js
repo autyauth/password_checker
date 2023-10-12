@@ -12,7 +12,7 @@ export function passwordBruteforcetime(targetPassword, passwordLenght) {
         index++;
     }
     index = 0;
-    while (targetPassword[index] && targetPassword[index] < 128) {
+    while (targetPassword[index] && targetPassword.charCodeAt(index) < 128) {
         // result = result + parseInt((convert_to_dec(characterSet, targetPassword[index]) * base));
         let sum = characterSet.indexOf(targetPassword[index]);
         //console.log(`${sum}`);
