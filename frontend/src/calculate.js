@@ -5,7 +5,13 @@ export function calculateTime(password) {
     const speed = 1000000000n;
     let result;
     let subfix = "";
+    const pattern = /[^a-zA-Z0-9!@#$%^&*()_+-=<>?]+/;
+    console.log(password)
+    // if (pattern.test(password)) {
+    //     console.log("enter")
 
+    //     return 8529;
+    //   }
     /*
     if (selectedValue == "1") 
         speed = 1000000n;

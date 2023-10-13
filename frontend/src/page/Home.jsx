@@ -1,12 +1,14 @@
 import { Container, Col, Row } from "react-bootstrap";
 import { PasswordForm } from "../PasswordForm";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { passwordBruteforcetime } from "../function";
 import { calculateTime } from "../calculate";
 import { PasswordStrengthIndicator } from "../PasswordStrengthIndicator";
+import { StaticExample } from "../popup";
 
 export function Home() {
   const [password, setPassword] = useState("");
+  const [show, setShow] = useState(false);
 
   // function getPassword(){
   //   setPassword()
@@ -14,13 +16,25 @@ export function Home() {
   const setPasswordFromChild = (pass) => {
     setPassword(pass);
   };
+  const setShowFromChild = (bool) => {
+    setShow(bool);
+  };
 
   const result = passwordBruteforcetime(password);
-  console.log(result);
 
   const time = calculateTime(result);
 
-  console.log(password);
+  useEffect(() => {
+    const pattern = /[^a-zA-Z0-9!@#$%^&*()_+-=<>?]+/;
+    if (pattern.test(password)) {
+      setShow(true);
+    } else {
+      setShow(false);
+    }
+    console.log(show);
+  }, [password,show]);
+
+  // console.log(password);
   return (
     <>
       <Container className="homeCon px-4" fluid>
@@ -42,10 +56,24 @@ export function Home() {
         <Row>
           <Col>
             <div className="text-center timeResult mt-4">
-              <h5 className="link-container">สนใจใน code ของเรางั้นเหรอ? สามารถเข้าชม github ของผลงานนี้ได้โดย  <a href="https://github.com/autyauth/password_checker" className="link">👉🏻คลิกที่นี่</a> </h5>
+              <h5 className="link-container">
+                สนใจใน code ของเรางั้นเหรอ? สามารถเข้าชม github
+                ของผลงานนี้ได้โดย{" "}
+                <a
+                  href="https://github.com/autyauth/password_checker"
+                  className="link"
+                >
+                  👉🏻คลิกที่นี่
+                </a>{" "}
+              </h5>
             </div>
           </Col>
         </Row>
+        <StaticExample
+          setShowFromChild={setShowFromChild}
+          show={show}
+          setPasswordFromChild = {setPasswordFromChild}
+        />
       </Container>
     </>
   );
