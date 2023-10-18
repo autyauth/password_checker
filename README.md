@@ -4,7 +4,7 @@
 
 
 ## Theory of Computation project: 
-***Password strength checker***
+#### ***Password strength checker***
 
 
 
