@@ -1,8 +1,9 @@
 # password_checker
-> สามารถทดลองใช้เว็บไซต์ของเราได้ที่ : https://toc-password.firebaseapp.com/
+
+สามารถทดลองใช้เว็บไซต์ของเราได้ที่ : https://toc-password.firebaseapp.com/
 
 ## Theory of Computation project: 
-***  Password strength checker  ***
+***Password strength checker***
 
 ### ประเภทของโครงงาน
 > เป็นโครงงานประเภท Web Application ที่มีฟังก์ชันในการตรวจสอบความแข็งแรงของรหัสผ่านที่ผู้ใช้กรอกผ่านแถบ "Password Input"
@@ -10,6 +11,7 @@
 
 ### ลิงก์สำหรับคลิปสาธิตการใช้งาน
 [Password strength checker Project presentation](https://youtu.be/CQA7Fgb1nZc?si=8vqh6HIxcF2iVgq_ “Youtube Presentation video”)
+[![Password strength checker Project presentation](http://img.youtube.com/vi/CQA7Fgb1nZc?si=kxSeR1bEygGEMAm1/0.jpg)](http://www.youtube.com/watch?v=CQA7Fgb1nZc?si=kxSeR1bEygGEMAm1)
 
 ## กลุ่ม 
 > ดาวเหนือ
