@@ -10,8 +10,7 @@
 
 
 ### ลิงก์สำหรับคลิปสาธิตการใช้งาน
-[Password strength checker Project presentation](https://youtu.be/CQA7Fgb1nZc?si=8vqh6HIxcF2iVgq_ “Youtube Presentation video”)
-[![Password strength checker Project presentation](http://img.youtube.com/vi/CQA7Fgb1nZc?si=kxSeR1bEygGEMAm1/0.jpg)](http://www.youtube.com/watch?v=CQA7Fgb1nZc?si=kxSeR1bEygGEMAm1)
+[![Password strength checker Project presentation]](http://www.youtube.com/watch?v=CQA7Fgb1nZc?si=kxSeR1bEygGEMAm1)
 
 ## กลุ่ม 
 > ดาวเหนือ
