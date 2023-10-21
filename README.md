@@ -7,7 +7,7 @@
 #### ***Password strength checker***
 
 # All DFA of points
-[สามารถเข้ามากดดูได้ที่ลิ้งค์ Draw.io ](https://drive.google.com/file/d/1SOGpe1vXhKGXKQi5BzpMZQA1NJFgkb7L/view?usp=sharing)
+สามารถเข้ามากดดูได้ที่ลิ้งค์ Draw.io : https://drive.google.com/file/d/1SOGpe1vXhKGXKQi5BzpMZQA1NJFgkb7L/view?usp=sharing
 
 ![image](https://github.com/autyauth/password_checker/assets/88836725/4a6f72cb-dcd9-48c4-a308-751cfba4d60e)
 ![image](https://github.com/autyauth/password_checker/assets/88836725/3951e76c-310c-4d8c-b827-70847412bfd0)
