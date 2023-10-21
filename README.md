@@ -1,3 +1,10 @@
+# All DFA of points
+สามารถเข้ามากดดูได้ที่ลิ้งค์ Draw.io : https://drive.google.com/file/d/1SOGpe1vXhKGXKQi5BzpMZQA1NJFgkb7L/view?usp=sharing
+![image](https://github.com/autyauth/password_checker/assets/88836725/4a6f72cb-dcd9-48c4-a308-751cfba4d60e)
+![image](https://github.com/autyauth/password_checker/assets/88836725/c754854e-e89c-4f43-bd32-ac3af70be592)
+![image](https://github.com/autyauth/password_checker/assets/88836725/a389d68e-4215-4a25-9634-10e71e19beae)
+
+
 # password_checker
 
 สามารถทดลองใช้เว็บไซต์ของเราได้ที่ : https://toc-password.firebaseapp.com/
